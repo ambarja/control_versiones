@@ -176,6 +176,15 @@ Es una plataforma de desarrollo colaborativo de código abierto más grande del 
 
 ]
 
+.pull-rigth[
+<center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/9_github.gif"></center>
+
+]
+
+
+---
+
+
 --
 
 .pull-rigth[
