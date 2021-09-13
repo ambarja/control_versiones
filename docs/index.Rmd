@@ -243,17 +243,6 @@ Panel personal para rastrear elementos y solicitudes pull	  | Panel de análisis
 *Más información click 👉 [aqui](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/gitlab-vs-github/)*
 ]
 
-
----
-## Integración de Git + GitHub
-
-![git+github](https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/resources/13_github.gif)
-
-
----
-## Integración de Git + GitLab
-![git+gitlab](https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/resources/12_gitlab.gif)
-
 ---
 
 class: center top
@@ -264,7 +253,7 @@ class: center top
 
 ### Es momento de hacer nuestro primer git init 🚀!
 
-# git init -> git commit -> git push 
+## git init -> git commit -> git push -> GitHub | GitLab
 
 Crear un repositorio en GitHub y subir archivos desde nuestro repositorio local usado comandos de **git**.
 
