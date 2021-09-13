@@ -9,7 +9,7 @@ output:
     css: xaringan-themer.css
     nature:
       slideNumberFormat: "%current%"
-      highlightStyle: dark
+      highlightStyle: solarized-dark
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
@@ -137,32 +137,50 @@ $ git --version
 ---
 ## Primeros comandos en Git 
 
-.pull-left[
-Cuando instalas **Git** por primera vez, es necesitas usar ciertas línas de comandos,a inicios puede ser algo tedioso, pero conforme vas practicando podrás ver las potencialidades que tiene y porque muchos usuarios hoy en día prefieren trabajar con una terminal dentro de su sitema operativo.Dentro de linux existe muchísimos líneas comandos que nos permite comunicar con el sistema operativo, aquí adjunto algunos comandos que pueden ser de vital importancia `CUANDO TRABAJES CON GIT`.
+--
+Cuando instalas **Git** por primera vez, es necesitas usar ciertas línas de comandos,a inicios puede ser algo tedioso, pero conforme vas practicando podrás ver las potencialidades que tiene y porque muchos usuarios hoy en día prefieren trabajar con una terminal dentro de su sitema operativo.
+
+
+--
+Dentro de linux existe muchísimos líneas comandos que nos permite comunicar con el sistema operativo, aquí adjunto algunos comandos que pueden ser de vital importancia `CUANDO TRABAJES CON GIT`.
 
 ```
-$ pwd             # Muestra el directorio actual
+$ pwd             # Directorio actual
 $ ls              # Lista el contenido actual
 $ ls -a           # Muestra archivos ocultos
-$ cd NAME_DIR     # Permite navegar por directorios
+$ cd NAME_DIR     # Navegar por directorios
 $ rm NAME_FILE    # Eliminar un archivo
 $ touch NAME_FILE # Crea un nuevo archivo
-$ date            # Muesta la fecha actual 
 ```
-]
 
-.pull-rigth[
+--
+Es necesario configurar nuestro Git dentro de nuestro sistema operativo para más adelante no tener ningun problemas al momento de trabajar con un repositorio remoto, está cofiguración solo se realiza una única vez,y para ello tenemos que emplear los siguientes comandos: 
 
+--
+```
+git config --global user.email "YourEmail@domain.com"
+git config --global user.name "YourUserNameHere"
 
-
-]
-
-
-
-
+```
+---
+background-image:url("https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/6_git-init.jpg")
+background-size: 75%
+position: absolute
 
 ---
 ## Introducción a GitHub - GitLab
+
+.pull-left[
+### GitHub
+
+]
+
+--
+
+.pull-rigth[
+### GitLab
+
+]
 
 
 ---
