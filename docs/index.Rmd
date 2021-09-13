@@ -169,7 +169,7 @@ position: absolute
 ## Introducción a GitHub - GitLab
 
 .pull-left[
-#### GitHub
+### GitHub
 Es una plataforma de desarrollo colaborativo de código abierto más grande del mundo que nos permite almacenar archivos de programas en la nube.
 
 <center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/7_github.png" width="80%"></center>
@@ -177,27 +177,34 @@ Es una plataforma de desarrollo colaborativo de código abierto más grande del 
 ]
 
 .pull-rigth[
-<center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/9_github.gif"></center>
+<center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/9_github.gif" width="50%"></center>
 
 ]
 
-
----
-
+<br/>
+<br/>
 
 --
+.message-box-white[
+<center><b>Si está usando Git, no puede usar GitHub; pero si está usando GitHub, debe usar Git</b></center>
+]
 
-.pull-rigth[
-#### GitLab
+---
+.pull-left[
+### GitLab
 Es una plataforma abierta de DevOps, que nos permite desarollar aplicaciones de manera accesible, este mismo nos ofrece al igual que GitHub administrar nuestros propios repositorios en proyectos, wikis entre otros. 
 
 <center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/8_gitlab.png" width="40%"></center>
 ]
 
---
+
+.pull-rigth[
+<center><img src="https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/10_gitlab.gif" width="50%"></center>
 
 <br/>
 <br/>
+
+--
 .message-box-white[
 <center><b>Si está usando Git, no puede usar GitHub; pero si está usando GitHub, debe usar Git</b></center>
 ]
