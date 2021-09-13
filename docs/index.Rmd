@@ -30,6 +30,7 @@ knitr::opts_chunk$set(
 ```{r libraries, include=FALSE, echo=FALSE}
 library(fontawesome)
 library(emo)
+library(countdown)
 ```
 
 ```{r xaringanExtra, echo=FALSE}
@@ -204,7 +205,6 @@ Es una plataforma abierta de DevOps, que nos permite desarollar aplicaciones de 
 ]
 
 <br/>
-<br/>
 
 --
 .message-box-white[
@@ -215,7 +215,7 @@ Es una plataforma abierta de DevOps, que nos permite desarollar aplicaciones de 
 ## Misma función en tecnologías diferentes
 <br/>
 <br/>
-
+<br/>
 
 GitHub           |     GitLab     | Significado
 -----------------|----------------|-----------------
@@ -224,17 +224,52 @@ GitHub           |     GitLab     | Significado
 **Repositorio**      | **Proyecto**       |Contenedor con el repositorio, los anexos y los ajustes específicos del proyecto    
 **Organización**     | **Grupo**          | 	Nivel en el que se asignan proyectos a usuarios
 
+---
+# Principales diferencias 
+
+GitHub	| GitLab
+--------|---------
+Los elementos se pueden rastrear en varios repositorios | Los elementos no se pueden rastrear en varios repositorios.
+Limitaciones en los repositorios privados | Los repositorios privados no tiene limitaciones.
+No hay opción gratuita de hospedaje en servidor propio  | Opción gratuita de hospedaje en servidor propio.
+Integración continua solo mediante herramientas de terceros como Travis CI, CircleCI etc.| Integración continua gratuita incluida.
+No cuenta con plataforma de implementación integrada | Implementación de software a través de Kubernetes.
+Rastreo completo de comentarios |	Sin rastreo de comentarios.
+No hay opción de exportación de elementos como archivo CSV	| Opción de exportación de elementos como archivo CSV por correo electrónico.
+Panel personal para rastrear elementos y solicitudes pull	  | Panel de análisis para planificar y supervisar proyectos.
+
+--
+.message-box-white[
+*Más información click 👉 [aqui](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/gitlab-vs-github/)*
+]
+
 
 ---
 ## Integración de Git + GitHub
 
+![git+github](https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/resources/13_github.gif)
 
 
 ---
 ## Integración de Git + GitLab
-
+![git+gitlab](https://raw.githubusercontent.com/ambarja/control_versiones/main/resources/resources/12_gitlab.gif)
 
 ---
-## Caso práctico 
+
+class: center top
+
+<div style = "padding-top: 3em"></div>
+
+# Caso práctico 🤓
+
+### Es momento de hacer nuestro primer git init 🚀!
+
+# git init -> git commit -> git push 
+
+Crear un repositorio en GitHub y subir archivos desde nuestro repositorio local usado comandos de **git**.
+
+```{r echo=FALSE}
+countdown(minutes = 7, update_every = 0, right = "33%")
+```
 
 
