@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r libraries, include=FALSE}
+```{r libraries, include=FALSE, echo=FALSE}
 library(fontawesome)
 library(emo)
 ```
@@ -42,15 +42,97 @@ xaringanExtra::use_fit_screen()
 xaringanExtra::use_progress_bar(color = "#ee4912", location = "bottom", height = "3px")
 ```
 
-## Introducción al control de vesiones
+<br>
+<br>
+<br>
+<h2 align="center">¿Tienes algún archivo en tu computadora llamado algo así como DocFinal_1.pdf? <br> Si es así, probablemente ya comprenda el valor básico del control de versiones.</h2>
+
+<p align="center"><img src="../resources/0_tradicional_wf.png" width="30%"></p>
+
 
 ---
-## Ventajas y limitaciones 
+## **Introducción al control de versiones**
+Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que tu y tus colaboradores puedan realizar seguimiento de su historial y revizar cualquier cambio más adelante.
 
+<p align="center"><img src="../resources/1_project-history.jpg" width="60%"></p>
+
+---
+## **Introducción al control de versiones**
+
+.pull-left[
+
+- Se puede utilizar a través de un programa con una interfaz gráfica, aplicaciones basadas en navegador web o herramientas de línea de comandos.
+
+
+- Dentro de los Sistemas de control de versiones avanzados (VCS) tenemos a [**Git**](https://git-scm.com/) , [**Mercurial**](https://www.mercurial-scm.org/), [**SVN**](https://subversion.apache.org/) y [**Bazaar**](https://bazaar.canonical.com/en/) proporcionan herramientas mucho más poderosas.
+
+- Las más usada hoy en día es **Git**, entre las compañias que las respaldan y usan este son: 
+ * Google 
+ * Facebook 
+ * Microsoft
+ * Netflix
+ * PostgreSQL
+ * ... 
+
+]
+
+.pull-right[
+
+<p align="center"><img src="../resources/2_SVC_types.svg" width="50%"></p>
+
+]
+
+---
+ 
+ .pull-left[
+## Ventajas
+- Rápido (La mayor parte es local).
+- Modelo distribuido (ramificación,fusión ...).
+- El flujo de trabajo es flexible.
+- Asegura la integridad de los datos. 
+- Código abierto
+- Gratis.
+
+<center><img src="../resources/3_advantages.png" width="45%"></center>
+
+]
+
+--
+
+.pull-rigth[
+## Límitaciones
+- La curva de aprendizaje es pronunciada.
+- No hace tracking a los archivos binarios.
+- No todo los SCV tienen staging área, en esto puede ser confuso para las usuarios novatos.
+
+<center><img src="../resources/4_disadvantages.jpg" width="30%"></center>
+
+]
 
 ---
 ## Instalación de Git 
 
+.pull-left[
+Si usas un sistema operativo como `Windows` es necesario instalar git como se muestra en la siguiente imagen👇.
+
+<center><img src="../resources/5_git_install.png" width="80%"></center>
+]
+
+--
+.pull-rigth[
+
+Si usas un sistema operativo como `Mac OS` 🍎 es más probable que tenga instalado Git, sino podrías usar el instalador binario, para verificar la versión instalada puedes usar el siguiente comando:
+
+```
+$ git --version
+```
+De la misma manera si usas cualquier distro de `GNU/Linux` 🐧 es lo más probable que tengas instalado git, de lo contrario podrías usar los siguientes comandos:
+
+```
+$ sudo apt install git-all
+$ git --version
+```
+]
 
 ---
 ## Primeros comandos en Git 
